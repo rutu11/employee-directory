@@ -1,11 +1,11 @@
 import java.time.LocalDate;
 
 public class Employee {
-    private int id;
+    private final int id;
     private String name;
     private String department;
     private double salary;
-    private LocalDate joiningDate;
+    private final LocalDate joiningDate;
 
     public Employee(int id, String name, String department, double salary, LocalDate joiningDate) {
         this.id = id;
