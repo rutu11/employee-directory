@@ -39,7 +39,7 @@ public class EmployeeDirectory {
                     String dept = sc.nextLine();
                     System.out.print("Enter Salary: ");
                     double salary = sc.nextDouble();
-                    LocalDate jDate = LocalDate.now();
+                    LocalDate jDate = LocalDate.now(); //For simplicity
                     service.addEmployee(name, dept, salary, jDate);
                     break;
 
